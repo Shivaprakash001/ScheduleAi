@@ -245,6 +245,43 @@ result = run_timetable_workflow(
 )
 ```
 
+## 📊 Generated Outputs
+
+When you run the system, it generates comprehensive visualizations and reports:
+
+### Visualizations
+- **Faculty Workload Heatmap** - Shows teacher scheduling distribution across days
+- **Group Timetable Heatmap** - Visualizes student group schedules with time slots
+- **Room Utilization Heatmap** - Displays room usage patterns and capacity analysis
+
+### Reports
+- **Excel Report** (`timetable.xlsx`) - Multi-sheet report with:
+  - Master timetable with room assignments
+  - Group-wise schedules
+  - Faculty-wise schedules
+  - Clash analysis summary
+  - Embedded charts and formatting
+
+### Sample Output Structure
+```
+📁 Generated Files:
+├── faculty_workload_heatmap.png     # Teacher workload visualization
+├── group_timetable_heatmap.png      # Student group schedules
+├── room_utilization_heatmap.png     # Room usage analysis
+└── timetable.xlsx                   # Complete Excel report
+```
+
+### Running the System
+```bash
+# Generate visualizations and reports
+python hybrid_timetable.py
+
+# Or run the example script
+python example.py
+```
+
+**Note:** The system generates these files in the current directory for immediate viewing and analysis.
+
 ## 🛠️ Development
 
 ### Local Development Setup
