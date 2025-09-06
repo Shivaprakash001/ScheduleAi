@@ -5,10 +5,10 @@ description = "Hybrid Timetable Generator using OR-Tools + Genetic Algorithms fo
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
-    {name = "Shiva Prakash", email = "shivaprakash@example.com"},
+    {name = "Shiva Prakash", email = "spchidiri2006@gmail.com"},
 ]
 maintainers = [
-    {name = "Shiva Prakash", email = "shivaprakash@example.com"},
+    {name = "Shiva Prakash", email = "spchidiri2006@gmail.com"},
 ]
 keywords = [
     "timetable",

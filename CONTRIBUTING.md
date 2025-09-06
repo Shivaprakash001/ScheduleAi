@@ -158,7 +158,7 @@ By contributing to ScheduleAI, you agree that your contributions will be license
 
 - **GitHub Issues**: For bugs and feature requests
 - **GitHub Discussions**: For questions and general discussion
-- **Email**: shivaprakash@example.com
+- **Email**: spchidiri2006@gmail.com
 
 ## 🎉 Recognition
 

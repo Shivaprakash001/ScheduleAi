@@ -3,8 +3,22 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![OR-Tools](https://img.shields.io/badge/OR--Tools-9.14+-orange.svg)](https://developers.google.com/optimization)
+[![Smart India Hackathon](https://img.shields.io/badge/Smart%20India-Hackathon-blue.svg)](https://sih.gov.in/)
 
 A sophisticated timetable generation system that combines **OR-Tools CP-SAT solver** with **Genetic Algorithms** to create optimal academic schedules compliant with NEP-2020 guidelines.
+
+**🏆 Smart India Hackathon 2025 Project** - Team of 6 developers
+
+## 👥 Team
+
+This project is developed by a team of 6 talented developers participating in Smart India Hackathon 2025:
+
+- **Shiva Prakash** (spchidiri2006@gmail.com) - Project Lead & AI/ML Engineer
+- Team Member 2 - [Role]
+- Team Member 3 - [Role]
+- Team Member 4 - [Role]
+- Team Member 5 - [Role]
+- Team Member 6 - [Role]
 
 ## 🎯 Features
 
@@ -270,7 +284,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/Shivaprakash001/ScheduleAi/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Shivaprakash001/ScheduleAi/discussions)
-- **Email**: shivaprakash@example.com
+- **Email**: spchidiri2006@gmail.com
 
 ---
 
