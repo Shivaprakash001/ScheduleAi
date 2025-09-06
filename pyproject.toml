@@ -1,0 +1,50 @@
+[project]
+name = "scheduleai"
+version = "0.1.0"
+description = "Hybrid Timetable Generator using OR-Tools + Genetic Algorithms for NEP-2020 compliant academic scheduling"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Shiva Prakash", email = "shivaprakash@example.com"},
+]
+maintainers = [
+    {name = "Shiva Prakash", email = "shivaprakash@example.com"},
+]
+keywords = [
+    "timetable",
+    "scheduler",
+    "optimization",
+    "or-tools",
+    "genetic-algorithm",
+    "education",
+    "nep-2020",
+    "academic-scheduling",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "deap>=1.4.3",
+    "matplotlib>=3.10.6",
+    "openpyxl>=3.1.5",
+    "ortools>=9.14.6206",
+    "seaborn>=0.13.2",
+    "xlrd>=2.0.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/Shivaprakash001/ScheduleAi"
+Repository = "https://github.com/Shivaprakash001/ScheduleAi"
+Issues = "https://github.com/Shivaprakash001/ScheduleAi/issues"
+Documentation = "https://github.com/Shivaprakash001/ScheduleAi#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,6 @@
+ortools
+deap
+openpyxl
+xlrd
+matplotlib
+seaborn
