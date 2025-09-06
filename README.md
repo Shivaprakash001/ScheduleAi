@@ -315,9 +315,6 @@ When you run the system, it generates comprehensive visualizations and reports:
 ```bash
 # Generate visualizations and reports
 python hybrid_timetable.py
-
-# Or run the example script
-python example.py
 ```
 
 **Note:** The system generates these files in the current directory for immediate viewing and analysis.
@@ -329,9 +326,6 @@ python example.py
 ```bash
 # Install dependencies
 pip install -r requirements.txt
-
-# Run the example
-python example.py
 
 # Run the main script
 python hybrid_timetable.py
