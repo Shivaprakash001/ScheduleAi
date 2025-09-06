@@ -14,11 +14,51 @@ A sophisticated timetable generation system that combines **OR-Tools CP-SAT solv
 This project is developed by a team of 6 talented developers participating in Smart India Hackathon 2025:
 
 - **Shiva Prakash** (spchidiri2006@gmail.com) - Project Lead & AI/ML Engineer
-- Team Member 2 - [Role]
-- Team Member 3 - [Role]
-- Team Member 4 - [Role]
-- Team Member 5 - [Role]
-- Team Member 6 - [Role]
+- Team Member 2 - [Frontend Developer]
+- Team Member 3 - [Backend/API Developer]
+- Team Member 4 - [UI/UX Designer]
+- Team Member 5 - [Full Stack Developer]
+- Team Member 6 - [DevOps/Testing]
+
+## 🔗 API Integration Guide
+
+For frontend and API development team members:
+
+### Backend API Structure
+```python
+# Main API endpoints to implement
+from hybrid_timetable import run_timetable_workflow
+
+@app.route('/api/generate-timetable', methods=['POST'])
+def generate_timetable():
+    data = request.get_json()
+    result = run_timetable_workflow(**data)
+    return jsonify(result)
+
+@app.route('/api/visualizations/<schedule_id>')
+def get_visualizations(schedule_id):
+    # Return generated heatmap URLs
+    pass
+```
+
+### Frontend Integration
+```javascript
+// Example frontend integration
+const generateTimetable = async (courseData) => {
+    const response = await fetch('/api/generate-timetable', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(courseData)
+    });
+    return response.json();
+};
+```
+
+### Development Workflow
+1. **Fork** the repository
+2. **Create feature branches** for frontend/backend work
+3. **Use pull requests** for code reviews
+4. **Test integration** with the existing AI engine
 
 ## 🎯 Features
 
