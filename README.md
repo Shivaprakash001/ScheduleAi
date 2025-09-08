@@ -13,8 +13,8 @@ A sophisticated timetable generation system that combines **OR-Tools CP-SAT solv
 
 This project is developed by a team of 6 talented developers participating in Smart India Hackathon 2025:
 
-- **Shiva Prakash** (spchidiri2006@gmail.com) - Project Lead & AI/ML Engineer
-- Team Member 2 - [Frontend Developer]
+- **Chidiri Shiva Prakash** (spchidiri2006@gmail.com) - Project Lead & AI/ML Engineer
+- **Sharan** - [Frontend Developer]
 - Team Member 3 - [Backend/API Developer]
 - Team Member 4 - [UI/UX Designer]
 - Team Member 5 - [Full Stack Developer]
